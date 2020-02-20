@@ -6,10 +6,25 @@
   "author": "Keshyu",
   "license": "MIT",
   "scripts": {
-    ":build": "bsb -make-world -clean-world",
-    ":watch": "bsb -make-world -clean-world -w"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
+    "cra-template": "1.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "reason-scripts": "1.0.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "bs-platform": "^7.1.1",
     "reason-react": "^0.7.0"
   }
 }
